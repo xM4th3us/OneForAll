@@ -1,4 +1,4 @@
-# Auto One For All Farmer 🟢🔴 [PATCHED]
+# Auto One For All Farmer 🟢🔴 [Updated]
 ### Now featuring "Auto find One For All"!
 ##### Be Standless and have Standless slots
 ```lua
