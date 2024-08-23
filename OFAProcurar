@@ -95,8 +95,8 @@ end)
 task.spawn(function()
     while getgenv().AutoFindingOneForAll  == true do task.wait(1);
         pcall(function()
-            if game:GetService("Players").LocalPlayer.Data.StandName.Value == "OA [Stage 1]" then
-                for i = 1,50 do
+            if game:GetService("Players").LocalPlayer.Data.StandName.Value == "OA [Stage 1]" and not game:GetService("Players").LocalPlayer.PlayerGui.InCombat.Enabled or getgenv().FoundAnything == false and not game:GetService("Players").LocalPlayer.PlayerGui.InCombat.Enabled then
+                for i = 1,95 do -- Supports up to 95 stand slots :O
                     if game:GetService("Players").LocalPlayer.PlayerGui.StandStorage.Outer.Inner.Inner["Slot"..i].Text.Text == "Standless" then
                         local args = {"Slot"..i};
                         if i <= 6 then
